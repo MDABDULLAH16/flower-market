@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+body{
+    max-width: 1440px;
+    background-color: #F5F8FF;
+}
+
+.MLR{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+@media screen and (max-width:640px) {
+    .MLR{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

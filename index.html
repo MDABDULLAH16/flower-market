@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Flower Market</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/style.css">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-</head>
-<body>
-    <h1>Welcome Flower Market</h1>
-</body>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="">
+    <header class="  MLR mt-8 ">
+      <nav class="flex justify-between items-center">
+        <div><img width="135px" height="82px" src="./assets/logo.png" alt="Flower-market logo" /></div>
+        <div class="list-none flex items-center gap-12 ">
+          <div class="lg:flex sm:hidden md:hidden items-center gap-12">
+            <li class="font-bold font-[inter]">Home</li>
+            <li class="text-[#8987A1]">Shop</li>
+            <li class="text-[#8987A1]">About Us</li>
+          </div>
+          <div class="flex items-center">
+            <li class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="18"
+                viewBox="0 0 24 18"
+                fill="none"
+              >
+                <path
+                  d="M1 1.5H5L7.68 14.89C7.77144 15.3504 8.02191 15.764 8.38755 16.0583C8.75318 16.3526 9.2107 16.509 9.68 16.5H19.4C19.8693 16.509 20.3268 16.3526 20.6925 16.0583C21.0581 15.764 21.3086 15.3504 21.4 14.89L23 6.5H6"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p class="font-bold">Cart ($56)</p>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="MLR">
+        <!-- banner -->
+         <section  class="flex sm:flex-col-reverse lg:flex-row items-end mt-[120px] mb-[120px] ">
+           <div>
+             <h1 class="lg:text-6xl sm:text-2xl  font-bold font-[NotoSerif]">ALWAYS<span class="text-[#E95A08]"> FRESH</span> <br> <span class="whitespace-nowrap text-[#E95A08]">FLOWERS</span></h1>
+             <p class="lg:text-[22px] sm:text-[14px] font-[inter] text-[#00000080] ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+           </div>
+           <img class="lg:min-w-[570px] sm:min-w-full " src="./assets/hero-flower.png" alt="hero-flower">
+         </section>
+    </main>
+  </body>
 </html>
