@@ -190,9 +190,9 @@
       <!-- our plants end -->
 
       <!-- Flower and plants Lover start -->
-       
+
       <section class="mt-38">
-        <div class=" absolute hidden lg:block">
+        <div class="absolute hidden lg:block">
           <img
             class="relative -translate-y-28 left-36"
             width="230"
@@ -200,7 +200,7 @@
             alt=""
           />
         </div>
-        <div class="flex gap-16">
+        <div class="flex sm:flex-col lg:flex-row lg:gap-16 sm:gap-2.5">
           <div>
             <img class="w-full h-full" src="./assets/flower-store.png" alt="" />
           </div>
@@ -238,6 +238,58 @@
         </div>
       </section>
       <!-- Flower and plants Lover end -->
+
+      <!-- latest deals start  -->
+      <section class="mt-32">
+        <div class="text-center">
+          <h1 class="mb-4 text-5xl font-bold font-[NotoSerif]">
+            <span class="text-[#E95A08]">Latest</span> Deals
+          </h1>
+          <p class="text-[#00000080] text-2xl font-[Inter]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <!-- discount card -->
+   <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-6 sm:gap-4 my-28 text-center">
+  <div class="space-y-2 flex flex-col lg:block">
+    <div class="lg:relative rounded-2xl backdrop-blur-2xl lg:h-1/2 h-[362px] p-2 overflow-hidden">
+      <div class="absolute inset-0 bg-no-repeat bg-cover bg-center"
+           style="background-image: url('./assets/deal-bloom.png')"></div>
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="relative h-full z-10 flex flex-col justify-center items-center text-2xl text-white font-bold font-[NotoSerif]">
+        60% Off | Blooms Plants
+        <a class="underline" href="#">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="relative rounded-2xl w-full lg:h-1/2 h-[362px] overflow-hidden">
+      <div class="absolute inset-0 bg-[url('./assets/deal-ana.png')] bg-no-repeat bg-center bg-cover"></div>
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="relative h-full z-10 flex flex-col justify-center items-center text-2xl text-white font-bold font-[NotoSerif]">
+        30% Off | Ana Plants
+        <a href="#" class="underline">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- deal-zabo -->
+  <div class="lg:col-span-2 relative h-[362px] lg:h-[424px] w-full">
+    <div style="background-image: url('./assets/deal-zabo.png'); border-radius: 25px;"
+         class="absolute inset-0 bg-no-repeat bg-cover rounded-2xl"></div>
+    <div class="absolute inset-0 bg-black opacity-30 rounded-2xl"></div>
+    <div class="relative h-full z-10 flex flex-col justify-center items-center text-2xl text-white font-bold font-[NotoSerif]">
+      25% Off | Zabo Deals
+      <a class="underline" href="#">Shop Now</a>
+    </div>
+  </div>
+</div>
+
+
+      </section>
+      <!-- latest deals end  -->
     </main>
   </body>
 </html>
